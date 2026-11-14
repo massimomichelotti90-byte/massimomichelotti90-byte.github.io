@@ -32,7 +32,9 @@
 </head>
 <body>
   <header class="wrap topbar">
-    <a class="brand" href="#inizio" aria-label="Il mio laboratorio, torna all'inizio"><span class="brand-mark">M.</span><span>maxmike90<span style="color:#7d9e5b"></a>
+    <a class="brand" href="#inizio">
+		<img src="logo.png" alt="Torna alla Home" style="max-width: 120px; height: auto;"
+	</a>
     <nav class="nav" aria-label="Navigazione principale"><a href="#progetti">Progetti</a><a href="#profilo">Profilo</a><a href="#contatti">Contatti</a></nav>
     <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Attiva tema scuro" aria-pressed="false"><span class="theme-icon" aria-hidden="true">☾</span><span>Tema scuro</span></button>
     <div class="availability"><i></i> SEMPRE IN COSTRUZIONE</div>
@@ -43,7 +45,7 @@
       <div class="visual" aria-label="Anteprima di un pannello domotico"><div class="visual-head"><span>HOME ASSISTANT / OVERVIEW</span><span>01 — LIVE</span></div><div class="screen"><div class="screen-title">Casa <span class="live">● TUTTO OK</span></div><div class="room-grid"><div class="room"><span class="room-icon">☼</span><div class="room-label">SOGGIORNO</div><div class="room-value">21.5° <small>comfort</small></div></div><div class="room"><span class="room-icon">◉</span><div class="room-label">CONSUMI</div><div class="room-value">0.42 <small>kW</small></div></div></div><div class="wave"><svg viewBox="0 0 400 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 36 C35 36 35 14 68 18 S106 41 140 31 180 19 210 25 247 35 280 15 325 19 350 12 380 18 400 8" fill="none" stroke="#b8f36b" stroke-width="2"/><path d="M0 36 C35 36 35 14 68 18 S106 41 140 31 180 19 210 25 247 35 280 15 325 19 350 12 380 18 400 8 V50 H0Z" fill="#b8f36b" opacity=".08"/></svg></div><div class="visual-foot"><span>ENERGIA · ULTIME 24H</span><span>AGGIORNATO ORA</span></div></div></div>
     </section>
     <div class="wrap stats"><div class="stat"><strong>Home Assistant</strong><span>il mio laboratorio smart</span></div><div class="stat"><strong>Open source</strong><span>condivisione e comunità</span></div><div class="stat"><strong>Progetti reali</strong><span>idee messe alla prova</span></div></div>
-    <section class="wrap section" id="progetti"><div class="section-head"><div><div class="kicker">01 / IDEE PER IL PORTFOLIO</div><h2>Progetti selezionati</h2></div><p class="section-copy">Queste schede sono esempi iniziali da sostituire con i tuoi progetti, descrizioni, tecnologie e link reali.</p></div>
+    <section class="wrap section" id="progetti"><div class="section-head"><div><div class="kicker">01 / IDEE PER IL PORTFOLIO</div><h2>Progetti selezionati</h2></div><p class="section-copy"></p></div>
       <div class="filters" role="group" aria-label="Filtra i progetti"><button class="filter active" data-filter="tutti">Tutti</button><button class="filter" data-filter="home">Home Assistant</button><button class="filter" data-filter="software">Software</button><button class="filter" data-filter="rete">Reti & hardware</button></div>
       <div class="projects">
         <article class="card" data-category="home" id="progetto-fujitsu"><a class="card-link" href="fujitsu-airstage.html" aria-label="Apri articolo Fujitsu AIRSTAGE">
@@ -66,7 +68,7 @@
     <section class="about" id="profilo"><div class="wrap section about-grid"><div><div class="kicker">02 / CHI C’È DIETRO</div><h2>Curioso per natura.<br>Pratico per scelta.</h2></div><div class="about-text"><p>Mi piace capire come funzionano le cose — e poi trovare il modo di farle funzionare meglio. La domotica è il punto in cui si incontrano tecnologia, comodità e un pizzico di sperimentazione.</p><p>Questo spazio è il mio quaderno pubblico: ci sono progetti finiti, prove in corso e soluzioni che voglio condividere. Se qualcosa ti è utile o hai un’idea da scambiare, scrivimi.</p><div class="principles"><div class="principle"><b>Utile prima di tutto</b><span>La tecnologia deve risolvere un problema reale.</span></div><div class="principle"><b>Imparare facendo</b><span>Ogni esperimento è un’occasione per capire.</span></div></div></div></div></section>
     <section class="wrap contact" id="contatti"><div class="contact-panel"><div><div class="kicker">03 / PARLIAMONE</div><h2>Hai un’idea o un progetto?</h2><p>Un confronto, una domanda, una collaborazione: mi fa piacere sentirti.</p></div><a class="button" href="mailto:massimomichelotti90@gmail.com">Scrivimi una mail <span class="arrow">↗</span></a></div></section>
   </main>
-  <footer class="wrap footer"><span>© <span id="year">2026</span> Il mio laboratorio · Fatto con curiosità.</span><a href="#inizio">Torna su ↑</a></footer>
+  <footer class="wrap footer"><span>© <span id="year">2026</span> Il mio laboratorio · Fatto con curiosità.</span><a href="Privacy-policy.html">Privacy Policy</a><a href="#inizio">Torna su ↑</a></footer>
   <script>
     const themeToggle=document.querySelector("#theme-toggle");
     let savedTheme=null; try{savedTheme=localStorage.getItem("portfolio-theme")}catch(error){};
