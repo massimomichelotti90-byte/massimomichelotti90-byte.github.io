@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <url>
-       <loc>https://massimomichelotti90-byte.github.io/</loc>
-       <lastmod>2026-11-14T22:57:26+00:00</lastmod>
-       <priority>1.0000</priority>
-  </url>
-  <url>
-       <loc>https://massimomichelotti90-byte.github.io/fujitsu-airstage.html</loc>
-       <lastmod>2026-11-14T22:57:26+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://massimomichelotti90-byte.github.io/Privacy-policy.html</loc>
-       <lastmod>2026-11-14T22:57:26+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://massimomichelotti90-byte.github.io/index.html</loc>
-       <lastmod>2026-11-14T22:57:26+00:00</lastmod>
-       <priority>0.6400</priority>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>http://massimomichelotti90-byte.github.io/fujitsu-airstage.html</loc>
+</url>
+<url>
+  <loc>http://massimomichelotti90-byte.github.io/Privacy-policy.html</loc>
+</url>
+<url>
+  <loc>http://massimomichelotti90-byte.github.io/index.html</loc>
+</url>
+<url>
+  <loc>http://massimomichelotti90-byte.github.io/index.html#progetti</loc>
+</url>
+<url>
+  <loc>http://massimomichelotti90-byte.github.io/index.html#progetto-fujitsu</loc>
+</url>
+<url>
+  <loc>http://massimomichelotti90-byte.github.io/index.html#contatti</loc>
+</url>
+<url>
+  <loc>http://massimomichelotti90-byte.github.io/</loc>
+</url>
 </urlset>
