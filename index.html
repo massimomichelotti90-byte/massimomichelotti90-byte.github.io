@@ -48,18 +48,10 @@
     <section class="wrap contact" id="contatti"><div class="contact-panel"><div><div class="kicker">03 / PARLIAMONE</div><h2>Hai un’idea o un progetto?</h2><p>Un confronto, una domanda, una collaborazione: mi fa piacere sentirti.</p></div><a class="button" href="mailto:massimomichelotti90@gmail.com">Scrivimi una mail <span class="arrow">↗</span></a></div></section>
   </main>
   <footer class="wrap footer"><span>© <span id="year">2026</span> Il mio laboratorio · Fatto con curiosità.</span><a href="Privacy-policy.html">Privacy Policy</a><a href="#inizio">Torna su ↑</a></footer>
-  <script>
-    const themeToggle=document.querySelector("#theme-toggle");
-    let savedTheme=null; try{savedTheme=localStorage.getItem("portfolio-theme")}catch(error){};
-    const setTheme=(theme)=>{document.documentElement.dataset.theme=theme;const dark=theme==="dark";themeToggle.setAttribute("aria-pressed",String(dark));themeToggle.setAttribute("aria-label",dark?"Attiva tema chiaro":"Attiva tema scuro");themeToggle.innerHTML=`<span class="theme-icon" aria-hidden="true">${dark?"☀":"☾"}</span><span>${dark?"Tema chiaro":"Tema scuro"}</span>`};
-    setTheme(savedTheme||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"));
-    themeToggle.addEventListener("click",()=>{const next=document.documentElement.dataset.theme==="dark"?"light":"dark";setTheme(next);try{localStorage.setItem("portfolio-theme",next)}catch(error){}});
-    const buttons=document.querySelectorAll('.filter'),cards=document.querySelectorAll('.card');
-    buttons.forEach(button=>button.addEventListener('click',()=>{buttons.forEach(item=>item.classList.remove('active'));button.classList.add('active');const filter=button.dataset.filter;cards.forEach(card=>{card.hidden=filter!=='tutti'&&card.dataset.category!==filter})}));
-    document.querySelector('#year').textContent=new Date().getFullYear();
-  </script>
+  <script src="assets/js/script.js" defer></script>
 </body>
 </html>
+
 
 
 
